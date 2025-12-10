@@ -1,0 +1,22 @@
+name: pumpkins_coursework
+channels:
+
+* conda-forge
+* bioconda
+* defaults
+
+dependencies:
+
+# R env
+
+r-base
+r-tidyverse
+r-dplyr
+r-ggplot2
+
+Jupyter 
+
+r-irkernel
+pandoc
+nbconvert
+

@@ -1,0 +1,17 @@
+name: script.py
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.14
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - pip
+  - nbconvert
+  - jupyterlab
+
+  - pip:
+      - biopython
+
